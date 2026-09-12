@@ -48,7 +48,7 @@ export const projects: Project[] = [
     description:
       "AI-based signature verification pipeline using YOLO for object detection and a Siamese CNN for similarity learning and verification.",
     tags: ["Python", "YOLO", "OpenCV"],
-    links: [{ label: "Open Post", href: "https://lnkd.in/dQYNEmyj" }],
+    links: [{ label: "Open Post", href: "https://lnkd.in/dQYNEmyj" }, {label: "Open Source Code", href: "https://github.com/cthleen/fp-pcv"}],
   },
   {
     index: "04",
@@ -73,6 +73,7 @@ export const projects: Project[] = [
     tags: ["AI", "Recommendation System"],
     links: [
       { label: "View Pitch Deck", href: "/Pitching-RSBP.pdf" },
+      { label: "Open Source Code", href: "https://github.com/cthleen/fp-rsbp" },
     ],
   },
 ];
