@@ -50,4 +50,29 @@ export const projects: Project[] = [
     tags: ["Python", "YOLO", "OpenCV"],
     links: [{ label: "Open Post", href: "https://lnkd.in/dQYNEmyj" }],
   },
+  {
+    index: "04",
+    title: "BatikGAN",
+    image: "/img/batikgan.png",
+    description:
+      "Generative Adversarial Network project synthesizing new Indonesian batik patterns from a 5330-image dataset. Compared Vanilla GAN, DCGAN, ProGAN, StyleGAN, and StyleGAN2-ADA, with StyleGAN2-ADA performing best (FID 121.99).",
+    tags: ["Python", "PyTorch", "GAN", "StyleGAN2-ADA"],
+    links: [
+      {
+        label: "Read Article",
+        href: "https://medium.com/@kecivi0/batikgan-synthesizing-and-generating-unique-batik-patterns-using-generative-adversarial-networks-920fe2514c44",
+      },
+    ],
+  },
+  {
+    index: "05",
+    title: "IF-Rekom",
+    image: "/img/ifrekom.png",
+    description:
+      "AI-based course recommendation system helping ITS Informatics students choose electives that match their interests and Final Project plans, avoiding misaligned course choices and wasted SKS.",
+    tags: ["AI", "Recommendation System"],
+    links: [
+      { label: "View Pitch Deck", href: "/Pitching-RSBP.pdf" },
+    ],
+  },
 ];
