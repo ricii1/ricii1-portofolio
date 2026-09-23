@@ -45,6 +45,17 @@ body {
   animation: reveal 0.7s ease-out both;
 }
 
+@media print {
+  .opacity-0 {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  body {
+    background-image: none;
+  }
+}
+
 .underline-sweep {
   position: relative;
   display: inline-block;
